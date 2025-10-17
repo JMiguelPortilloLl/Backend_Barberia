@@ -1,0 +1,933 @@
+[
+  {
+    "ContainingType": "Peluqueria.Controllers.CitasController",
+    "Method": "GetCitas",
+    "RelativePath": "api/Citas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Peluqueria.Models.Cita, Peluqueria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.CitasController",
+    "Method": "GetCita",
+    "RelativePath": "api/Citas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Peluqueria.Models.Cita",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.CitasController",
+    "Method": "DeleteCita",
+    "RelativePath": "api/Citas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.CitasController",
+    "Method": "ActualizarCita",
+    "RelativePath": "api/Citas/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idusuariocliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idhora",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.CitasController",
+    "Method": "CrearCita",
+    "RelativePath": "api/Citas/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fecha",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "total",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idhora",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idusuariocliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idtiposervicio",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.GaleriasController",
+    "Method": "GetGalerias",
+    "RelativePath": "api/Galerias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Peluqueria.Models.Galeria, Peluqueria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.GaleriasController",
+    "Method": "GetGaleria",
+    "RelativePath": "api/Galerias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Peluqueria.Models.Galeria",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.GaleriasController",
+    "Method": "DeleteGaleria",
+    "RelativePath": "api/Galerias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.GaleriasController",
+    "Method": "ActualizarGaleria",
+    "RelativePath": "api/Galerias/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.GaleriasController",
+    "Method": "CrearGaleria",
+    "RelativePath": "api/Galerias/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.HorasController",
+    "Method": "GetHoras",
+    "RelativePath": "api/Horas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Peluqueria.Models.Hora, Peluqueria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.HorasController",
+    "Method": "GetHora",
+    "RelativePath": "api/Horas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Peluqueria.Models.Hora",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.HorasController",
+    "Method": "DeleteHora",
+    "RelativePath": "api/Horas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.HorasController",
+    "Method": "ActualizarHora",
+    "RelativePath": "api/Horas/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "estado",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.HorasController",
+    "Method": "CrearHora",
+    "RelativePath": "api/Horas/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.RolesController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Peluqueria.Models.Rol, Peluqueria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.RolesController",
+    "Method": "GetRol",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Peluqueria.Models.Rol",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.RolesController",
+    "Method": "DeleteRol",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.RolesController",
+    "Method": "ActualizarUsuarioCliente",
+    "RelativePath": "api/Roles/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.RolesController",
+    "Method": "CrearRol",
+    "RelativePath": "api/Roles/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.TipoServiciosController",
+    "Method": "GetTipoServicios",
+    "RelativePath": "api/TipoServicios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Peluqueria.Models.TipoServicio, Peluqueria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.TipoServiciosController",
+    "Method": "GetTipoServicio",
+    "RelativePath": "api/TipoServicios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Peluqueria.Models.TipoServicio",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.TipoServiciosController",
+    "Method": "DeleteTipoServicio",
+    "RelativePath": "api/TipoServicios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.TipoServiciosController",
+    "Method": "ActualizarServicio",
+    "RelativePath": "api/TipoServicios/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagen",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "precio",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.TipoServiciosController",
+    "Method": "CrearServicio",
+    "RelativePath": "api/TipoServicios/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "precio",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagen",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idusuarioempleado",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioClientesController",
+    "Method": "GetUsuariosClientes",
+    "RelativePath": "api/UsuarioClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Peluqueria.Models.UsuarioCliente, Peluqueria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioClientesController",
+    "Method": "GetUsuarioCliente",
+    "RelativePath": "api/UsuarioClientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Peluqueria.Models.UsuarioCliente",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioClientesController",
+    "Method": "DeleteUsuarioCliente",
+    "RelativePath": "api/UsuarioClientes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioClientesController",
+    "Method": "ActualizarUsuarioCliente",
+    "RelativePath": "api/UsuarioClientes/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreusuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ci",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefono",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioClientesController",
+    "Method": "CitasUsuario",
+    "RelativePath": "api/UsuarioClientes/CitasUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_persona",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Peluqueria.Models.Cita, Peluqueria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioClientesController",
+    "Method": "CrearCliente",
+    "RelativePath": "api/UsuarioClientes/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreusuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ci",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefono",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioClientesController",
+    "Method": "Login",
+    "RelativePath": "api/UsuarioClientes/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioEmpleadosController",
+    "Method": "GetUsuariosEmpleado",
+    "RelativePath": "api/UsuarioEmpleados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Peluqueria.Models.UsuarioEmpleado, Peluqueria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioEmpleadosController",
+    "Method": "GetUsuarioEmpleado",
+    "RelativePath": "api/UsuarioEmpleados/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Peluqueria.Models.UsuarioEmpleado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioEmpleadosController",
+    "Method": "DeleteUsuarioEmpleado",
+    "RelativePath": "api/UsuarioEmpleados/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioEmpleadosController",
+    "Method": "ActualizarUsuarioEmpleado",
+    "RelativePath": "api/UsuarioEmpleados/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreusuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefono",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "estado",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioEmpleadosController",
+    "Method": "CrearPublicacion",
+    "RelativePath": "api/UsuarioEmpleados/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreusaurio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefono",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idrol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioEmpleadosController",
+    "Method": "GetUsuariosEmpleados",
+    "RelativePath": "api/UsuarioEmpleados/ListarEmpleados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Peluqueria.Models.UsuarioEmpleado, Peluqueria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Peluqueria.Controllers.UsuarioEmpleadosController",
+    "Method": "Login",
+    "RelativePath": "api/UsuarioEmpleados/LoginEmpleado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
